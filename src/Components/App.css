@@ -1,0 +1,195 @@
+.totalApp {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.app {
+
+    width: 346px;
+    background-color: rgb(231, 230, 230);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    margin-top: 2%;
+}
+
+
+
+.add-button {
+
+    background-color: rgb(214, 212, 212);
+    border-radius: 12px;
+    padding-left: 148px;
+    padding-right: 148px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.input-box {
+
+    color: rgb(173, 173, 173);
+    border-radius: 12px;
+    width: 315px;
+    height: 68px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    padding: 0px 24px;
+    box-sizing: border-box;
+}
+
+.task-note {
+    background-color: white;
+    width: 285px;
+    border-radius: 12px;
+    font-size: 15px;
+    padding: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-shadow: -5px 5px 4px rgba(155, 154, 154, 0.2), 5px 5px 4px rgb(155, 154, 154, 0.2);
+}
+
+
+.task-note:hover {
+    transform: scale(1.05);
+
+}
+
+.task-note {
+    transition: transform 0.15s ease;
+}
+
+.task-date {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.task-buttons {
+    display: flex;
+    gap: 5%;
+    align-items: end;
+    justify-content: end;
+}
+
+.delete-task-button {
+    width: 15px;
+
+}
+
+.edit-task-button {
+
+    width: 15px;
+
+}
+
+
+
+
+
+.sub-task-page {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 12px;
+    z-index: +1111;
+
+
+
+}
+
+.sub-tasks {
+
+    border-radius: 12px;
+    padding: 1%;
+    text-align: center;
+
+
+
+}
+
+.close-subtask {
+    display: flex;
+    width: 15px;
+    justify-content: start;
+}
+
+.sub-tasks-note {
+    background-color: rgb(228, 224, 224);
+    width: 1130px;
+    
+    margin-top: 100px;
+    border-radius: 12px;
+    padding: 5px;
+
+
+
+}
+
+
+.sub-tasks-title {
+    text-align: left;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+
+.sub-tasks {
+ 
+    margin-top: 30px;
+
+}
+
+
+.add-sub-task {
+
+    background-color: rgb(214, 212, 212);
+    border-radius: 12px;
+    padding-left: 225px;
+    padding-right: 225px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.subtasks-tasks{
+
+    text-align: left;
+    margin-left: 40px;
+
+}
+
+
+.didnt-done {
+    width: 15px;
+
+    margin-right: 10px;
+
+}
+
+
+.input-subtask-box {
+
+    background-color: rgb(214, 212, 212);
+    border-radius: 12px;
+    padding-left: 500px;
+    padding-right: 600px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+}

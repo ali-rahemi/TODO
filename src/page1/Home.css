@@ -1,0 +1,9 @@
+
+
+.home{
+
+    display: flex;
+    justify-content: center;
+    gap: 34px;
+    margin: 24px 0px;
+}
